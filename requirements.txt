@@ -1,0 +1,17 @@
+streamlit
+matplotlib
+pandas
+openai
+langchain
+pandas
+numpy
+scikit-learn
+flask
+fastapi
+pydantic
+python-dotenv
+PyPDF2
+python-docx
+openpyxl
+fuzzywuzzy
+python-Levenshtein
