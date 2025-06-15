@@ -5,7 +5,7 @@ from PyPDF2 import PdfReader
 from docx import Document
 from fuzzywuzzy import process
 
-DB_PATH = "indian_health_chatbot_dataset (1)4444.xlsx"
+DB_PATH = "Career_Paths_Dataset.xlsx"
 
 def load_database():
     if not os.path.exists(DB_PATH):
@@ -114,7 +114,7 @@ def get_chatbot_response(user_input, database):
     return "I'm here to help, but I couldn't find relevant data. Can you provide more details?"
 
 def main():
-    st.title("Med Assist: AI-Powered Diagnostic Assistance and Comfort Chatbot")
+    st.title("Career Path Recommender: Career Path Assistance and Comfort Chatbot")
     st.sidebar.header("Navigation")
     options = st.sidebar.radio("Select a page:", ["Home", "Data Upload", "Database", "About"])
     
